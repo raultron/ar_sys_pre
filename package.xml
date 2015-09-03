@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>ar_sys_prep</name>
+  <version>0.0.0</version>
+  <description>Image filtering and preparation for better board recognition with ar_sys package.
+		Original idea and code from https://github.com/SmartRoboticSystems/image_filtering_for_aruco </description>
+
+  <maintainer email="racuna@usb.ve">Raul Acuna</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>OpenCV</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>OpenCV</run_depend>
+
+</package>
